@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Commerce</string>
+    <string name="logPage">Log in</string>
+    <string name="regester">Regester</string>
+    <string name="k_c">kkkkkk</string>
+    <string name="super_air_fresh_g1">Fresh Air Products</string>
+    <string name="ketchen_Components">Ketchen Components</string>
+    <string name="breakfast_seails">breakfast_seails</string>
+    <string name="soft_food">soft_food</string>
+    <string name="can_food_surps">can_food_surps</string>
+    <string name="super_drinkings">super_drinkings</string>
+    <string name="super_milk_cheese">super_milk_cheese</string>
+    <string name="super_sweets">super_sweets</string>
+    <string name="body_care">body_care</string>
+    <string name="loundary">loundary</string>
+    <string name="personal_care">personal_care</string>
+    <string name="hair_care">hair_care</string>
+    <string name="air_fresh">air_fresh</string>
+    <string name="clean_materials">clean_materials</string>
+    <string name="chiledren">chiledren</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ProductImage"
+        android:layout_width="174dp"
+        android:layout_height="121dp"
+        app:srcCompat="@drawable/super_air_fresh_g1" />
+
+    <TextView
+        android:id="@+id/prProductName"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:background="#ac000000"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Category"
+        android:textColor="#f7f2f2"
+        android:textSize="25dp" />
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.khale.k0002_commerce">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LogIn"
+            android:label="Log in" />
+        <activity
+            android:name=".Regester"
+            android:label="Regester" />
+        <activity
+            android:name=".Admin"
+            android:label="Admin" />
+        <activity
+            android:name=".productListA"
+            android:label="productListA" />
+        <activity
+            android:name=".cAddGoods"
+            android:label="c add goods" />
+        <activity
+            android:name=".cUpdateGoods"
+            android:label="c Update Goods" />
+        <activity
+            android:name=".MainCategories"
+            android:label="MainCategories" />
+        <activity
+            android:name=".SubCategory1"
+            android:label="SubCategory1" />
+        <activity
+            android:name=".SubCategory2"
+            android:label="SubCategory2" />
+        <activity android:name=".SubCategory3" />
+        <activity
+            android:name=".SubCategory4"
+            android:label="SubCategory4"></activity>
+        <activity android:name=".SubCategory5"></activity>
+    </application>
+
+</manifest>
